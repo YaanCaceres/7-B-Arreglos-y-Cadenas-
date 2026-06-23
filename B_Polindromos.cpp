@@ -3,9 +3,11 @@ using namespace std;
 int main() {
 
     int n;
+    cout<< "Cantidad de palabras: ";
     cin >> n;
     for (int i = 0; i < n; i++) {
         char palabra[100]; 
+        cout<< "Palabra a ingresar: ";
         cin >> palabra;
         
         int longitud = 0;
